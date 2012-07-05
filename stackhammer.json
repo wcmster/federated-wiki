@@ -10,7 +10,7 @@
       ],
       "nodes": [
         {
-          "type": "T1_MICRO",
+          "type": "M1_SMALL",
           "deployState": "RUNNING",
           "image": "ami-31814f58",
           "elasticIp": "23.23.83.47",
