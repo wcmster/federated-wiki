@@ -1,0 +1,28 @@
+{
+  "metaVersion": "1.1.2.1",
+  "accessKey": "AKIAJY2IP6LVEXXJ4VLA",
+  "puppetVersion": "PUPPET27",
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-31814f58",
+          "elasticIp": "23.23.83.47",
+          "ebsVolumes": [
+            "vol-18689779,/dev/sdh"
+          ],
+          "availabilityZone": "us-east-1a",
+          "role": "federated_wiki_server",
+          "name": "nf9dwiki2"
+        }
+      ],
+      "name": "production"
+    }
+  ]
+}
